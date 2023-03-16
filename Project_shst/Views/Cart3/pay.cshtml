@@ -1,0 +1,191 @@
+﻿@model Project_shst.Models.Facture3
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@*<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>*@
+
+<h2>This is for Payment</h2>
+<form method="post">
+
+    @*<script>
+    $(document).ready(function () {
+    $("#AddCart").submit(function (event) {
+    event.preventDefault();
+
+    var formData = $("#AddCart").serialize();
+
+    $.ajax({
+    type: "POST",
+    url: "/Cart3/Shiping",
+    data: formData,
+    success: function (data) {
+    if (data.success)
+    toastr.success('Product enter in your Shoppingcart !');
+    else
+    toastr.error('Une erreur s est produite');
+
+    }
+    });
+    });
+    });
+    </script>*@
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+
+                <h5 class="card-title">Payment</h5>
+                <div>
+                    <a asp-action="Index" class="btn btn-info">BacktoCart</a>
+                </div>
+                <div class="form-group">
+                    <label asp-for="paymentUser.FirstName" class="control-label"></label>
+                    <input asp-for="paymentUser.FirstName" class="form-control" />
+                    <span asp-validation-for="paymentUser.FirstName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="paymentUser.LastName" class="control-label"></label>
+                    <input asp-for="paymentUser.LastName" class="form-control" />
+                    <span asp-validation-for="paymentUser.LastName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="paymentUser.Email" class="control-label"></label>
+                    <input asp-for="paymentUser.Email" class="form-control" />
+                    <span asp-validation-for="paymentUser.Email" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="paymentUser.PhoneNumber" class="control-label"></label>
+                    <input asp-for="paymentUser.PhoneNumber" class="form-control" />
+                    <span asp-validation-for="paymentUser.PhoneNumber" class="text-danger"></span>
+                </div>
+               @* <div class="form-group">
+                    <label asp-for="paymentUser.CartName" class="control-label"></label>
+                    <input asp-for="paymentUser.CartName" class="form-control" />
+                    <span asp-validation-for="paymentUser.CartName" class="text-danger"></span>
+                </div>*@
+                <div class="form-group">
+                    <label asp-for="paymentUser.PaymentDate" class="control-label"></label>
+                    <input asp-for="paymentUser.PaymentDate" class="form-control" />
+                    <span asp-validation-for="paymentUser.PaymentDate" class="text-danger"></span>
+                </div>
+
+
+
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Ship_Head</h5>
+                    @foreach (var item in Model.LstCart)
+                    {
+                        <div class="form-group">
+                            <li class="list-group-item">Product: @item.ELProducts.Goods</li>
+                            <li class="list-group-item"> Price:@item.Price</li>
+                            <li class="list-group-item"> Quntity:@item.Count</li>
+
+                        </div>
+                        <span class="text-info">Total price for this item @((item.Price * item.Count))</span>
+
+
+                    }
+
+                    <div class="form-group">
+                        <strong class="text-info">Ground Total: @Model.GroundTotal</strong>
+                    </div>
+                    <div class="form-group">
+                        <strong class="text-info">Total Item: @Model.GroundCount</strong>
+                    </div>
+                    <div class="form-group">
+                        <strong class="text-info">Total pricr for posting: @Model.totalPrice</strong>
+                    </div>
+                    <h2>@ViewBag.DeliveryDate</h2>
+                    
+                    @*    <div>
+                    <a asp-action="Index" class="btn btn-danger">Order to Ship</a>
+                    </div>*@
+                    <li>
+                        <a asp-controller="Home" asp-action="IndexShop" ><!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center">
+                            <a href="@*https://www.paypal.com/c2/webapps/mpp/home?locale.x=en_C2*@" title="Check out with PayPal" onclick="javascript:window.open('https://www.paypal.com/c2/webapps/mpp/home?locale.x=en_C2','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/digitalassets/c/website/marketing/apac/C2/logos-buttons/26_Blue_CheckOut_Pill_Button.png" alt="Check out with PayPal" /></a></td></tr></table><!-- PayPal Logo --></a>
+                    </li>
+
+                    <!DOCTYPE html>
+                    <html>
+                    <head>
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                    </head>
+                    <body>
+                        <!-- Replace "test" with your own sandbox Business account app client ID -->
+                        <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
+                        <!-- Set up a container element for the button -->
+                        <div id="paypal-button-container"></div>
+                        <script>
+                            paypal.Buttons({
+                                // Order is created on the server and the order id is returned
+                                createOrder() {
+                                    return fetch("/my-server/create-paypal-order", {
+                                        method: "POST",
+                                        headers: {
+                                            "Content-Type": "application/json",
+                                        },
+                                        // use the "body" param to optionally pass additional order information
+                                        // like product skus and quantities
+                                        body: JSON.stringify({
+                                            cart: [
+                                                {
+                                                    sku: "YOUR_PRODUCT_STOCK_KEEPING_UNIT",
+                                                    quantity: "YOUR_PRODUCT_QUANTITY",
+                                                },
+                                            ],
+                                        }),
+                                    })
+                                        .then((response) => response.json())
+                                        .then((order) => order.id);
+                                },
+                                // Finalize the transaction on the server after payer approval
+                                onApprove(data) {
+                                    return fetch("/my-server/capture-paypal-order", {
+                                        method: "POST",
+                                        headers: {
+                                            "Content-Type": "application/json",
+                                        },
+                                        body: JSON.stringify({
+                                            orderID: data.orderID
+                                        })
+                                    })
+                                        .then((response) => response.json())
+                                        .then((orderData) => {
+                                            // Successful capture! For dev/demo purposes:
+                                            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
+                                            const transaction = orderData.purchase_units[0].payments.captures[0];
+                                            alert(`Transaction ${transaction.status}: ${transaction.id}\n\nSee console for all available details`);
+                                            // When ready to go live, remove the alert and show a success message within this page. For example:
+                                            // const element = document.getElementById('paypal-button-container');
+                                            // element.innerHTML = '<h3>Thank you for your payment!</h3>';
+                                            // Or go to another URL:  window.location.href = 'thank_you.html';
+                                        });
+                                }
+                            }).render('#paypal-button-container');
+                        </script>
+                    </body>
+                </html>
+
+                    @*  <li>
+                    <a asp-controller="ShippingOrderController1" asp-action="Index" class="btn btn-danger">Order to Ship</a>
+                    </li>*@
+
+                </div>
+                <div>
+                    <p style="color:blue; font-size:14px">
+                        Estimate araival is:
+
+                        @DateTime.Now.AddDays(7).ToShortDateString()- @DateTime.Now.AddDays(14).ToShortDateString()
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+

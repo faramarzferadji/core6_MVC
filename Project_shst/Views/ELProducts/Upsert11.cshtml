@@ -1,0 +1,99 @@
+﻿@model Project_shst.Models.ELProductsVM
+
+@{
+    ViewData["Title"] = "Upsert11";
+}
+
+
+@*<partial name="Notification" />*@
+<form asp-action="Upsert11" enctype="multipart/form-data">
+    <h1 class="text-primary">@(Model.elproduct.Id != 0 ? "update" : "Create") Product</h1>
+    <input asp-for="elproduct.Id" hidden />
+    <input asp-for="elproduct.Imagurl" hidden />
+    <div class="col-12 pb-2">
+        <div class="col-md-4">
+            <label asp-for="elproduct.ELProductsId" class="control-label"></label>
+            <input asp-for="elproduct.ELProductsId" class="form-control" />
+            <span asp-validation-for="elproduct.ELProductsId" class="text-danger"></span>
+        </div>
+
+        <div class="col-md-4">
+            <label asp-for="elproduct.Goods" class="control-label"></label>
+            <input asp-for="elproduct.Goods" class="form-control" />
+            <span asp-validation-for="elproduct.Goods" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="elproduct.Price" class="control-label"></label>
+            <input asp-for="elproduct.Price" class="form-control" />
+            <span asp-validation-for="elproduct.Price" class="text-danger"></span>
+        </div>
+        <div class="col-md-4">
+            <label asp-for="elproduct.Price12" class="control-label"></label>
+            <input asp-for="elproduct.Price12" class="form-control" />
+            <span asp-validation-for="elproduct.Price12" class="text-danger"></span>
+        </div>
+
+
+        <div class="col-md-4">
+            <label asp-for="elproduct.Imagurl" class="control-label"></label>
+            <input type="file" id="uploudBox" name="file" class="form-control" />
+        </div>
+        <div class="col-md-4">
+            <label asp-for="elproduct.BrandId" class="control-label"></label>
+            <select asp-for="elproduct.BrandId" asp-items="@Model.BrandList" class="form-control">
+                <option disabled selected>--Select Brand--</option>
+            </select>
+        </div>
+
+
+    </div>
+
+
+
+
+    <div class="form-group">
+        @if (Model.elproduct.Id != 0)
+        {
+            <input type="submit" value="update" class="btn btn-primary" />
+        }
+        else
+        {
+            <input type="submit" onclick="return ValidateInput()" value="Create" class="btn btn-primary" />
+            <i class="bi bi-file-plus"></i>
+        }
+
+    </div>
+
+
+
+
+
+
+
+
+</form>
+
+<div>
+    <a asp-action="Indexx">Back to List</a>
+</div>
+
+
+@section Scripts{
+
+    <script>
+        function ValidateInput() {
+            if (document.getElementById("uploudBox").value == "") {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Something went wrong!',
+                    footer: '<a href="">Why do I have this issue?</a>'
+                });
+                return false;
+
+            }
+            return true;
+        }
+    </script>
+}
+

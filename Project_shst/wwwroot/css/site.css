@@ -1,0 +1,23 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    /*background-image: url("../Images/Products/af79095b-676d-4ec5-a51e-87b6599c86b9.jpg");*/
+    background-size: cover;
+}
+p {
+    color: white;
+}

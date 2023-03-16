@@ -1,0 +1,301 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Project_shst.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Project_shst.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\Images\\Products\\61d2696b-e1d9-4c3f-a3ff-e60d63d14b3c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\61d2696b-e1d9-4c3f-a3ff-e60d63d14b3c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\Images\\Products\\657abbd7-195c-4cf5-a3ec-04eb3ae176d8.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\657abbd7-195c-4cf5-a3ec-04eb3ae176d8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\Images\\Products\\71e33907-427a-44e2-9ae9-fdec51b716c6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\71e33907-427a-44e2-9ae9-fdec51b716c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\Images\\Products\\7b3196f0-dbef-4a88-850a-58415765fe52.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\7b3196f0-dbef-4a88-850a-58415765fe52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\Images\\Products\\8b81dede-392a-4f61-9e20-c8cd3e96d323.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\8b81dede-392a-4f61-9e20-c8cd3e96d323.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\Images\\Products\\963faf62-9029-486d-8e7b-30db62a7655f.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\963faf62-9029-486d-8e7b-30db62a7655f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\Images\\Products\\af79095b-676d-4ec5-a51e-87b6599c86b9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\af79095b-676d-4ec5-a51e-87b6599c86b9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\Images\\Products\\ef9ccfeb-6b95-444f-b356-c4c4e41841ec.jpg",
+      "PackagePath": "staticwebassets\\Images\\Products\\ef9ccfeb-6b95-444f-b356-c4c4e41841ec.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\css\\BootstrapthemSheet.css",
+      "PackagePath": "staticwebassets\\css\\BootstrapthemSheet.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ferad\\OneDrive\\Bureau\\New Project_chst\\Project_shst\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Project_shst.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Project_shst.props",
+      "PackagePath": "build\\Project_shst.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Project_shst.props",
+      "PackagePath": "buildMultiTargeting\\Project_shst.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Project_shst.props",
+      "PackagePath": "buildTransitive\\Project_shst.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

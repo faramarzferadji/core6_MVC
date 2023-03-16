@@ -1,0 +1,144 @@
+﻿@model Project_shst.Models.Facture3
+
+@*<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>*@
+
+<form method="post" >
+
+
+
+
+    <div class="card" style="width: 18rem;">
+
+        <div><h2>Final Facture2</h2>    </div>
+        <ul class="list-group list-group-flush">
+            <div>
+            <li class="nav-item">
+                <a class="nav-link" href="#"> <a class="btn btn-danger btn-sm" asp-action="Shiping">Shiping</a></a>
+            </li>
+            </div>
+
+            <div>
+                <a asp-controller="Home" asp-action="IndexShop" class="btn btn-outline-info btn-sm">Continue Shopping</a>
+            </div>
+            @foreach (var item in Model.LstCart)
+            {
+            <div>
+
+
+                <li class="list-group-item">Product: @item.ELProducts.Goods</li>
+                <li class="list-group-item"> @item.ELProducts.Brand</li>
+                <li class="list-group-item"> Price for one:@item.ELProducts.Price</li>
+                <li class="list-group-item"> Price for +11:@item.ELProducts.Price12</li>
+                <li class="list-group-item"> Number:@item.Count</li>
+                <li class="list-group-item">Price : @item.Price.ToString()</li>
+                <li class="list-group-item">
+                Total price : @item.Price.ToString()<span>x</span>@item.Count=@((item.Price * item.Count))
+            </li>
+
+                            <div>
+                                <img src="@item.ELProducts.Imagurl" width="100%" class="rounded" />
+                            </div>
+
+                            <div class="w-75 btn-group " role="group">
+                                <a asp-action="plus" asp-route-cartid="@item.Id" class="btn btn-primary"><i class="bi bi-plus-circle"></i></a>&nbsp;
+                                <a asp-action="minus" asp-route-cartid="@item.Id" class="btn btn-warning"><i class="bi bi-dash-circle"></i></a>&nbsp;
+                                <a asp-action="remove" asp-route-cartid="@item.Id" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                            </div>
+
+                            <span class="placeholder col-12 bg-secondary"></span>
+                            <hr />
+                            <hr />
+                            <hr />
+        </div>
+            }
+
+    </ul>
+    <div class="card-footer">
+        <div class="from-group">
+            <strong class="text-info">Ground Total: @Model.GroundTotal</strong>
+        </div>
+
+          <div class="form-group">
+            <strong class="text-info">Total Item: @Model.GroundCount</strong>
+          </div>
+
+
+    </div>
+
+    <div>
+
+            <a class="btn btn-danger" asp- style="height:25px; width:200px;" asp-action="Shiping">Shiping</a>
+
+     </div>
+
+
+        <p class="text-break">mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
+
+
+    <hr style="line-height:30px ">
+    <hr style="line-height:30px ">
+</form>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+@*<form method="post">
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Final Facture2</h2>
+            <ul class="list-group list-group-flush">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <a class="btn btn-danger btn-sm" asp-action="Shiping">Shiping</a></a>
+                </li>
+                <li>
+                    <a asp-controller="Home" asp-action="IndexShop" class="btn btn-outline-info btn-sm">Continue Shopping</a>
+                </li>
+                @foreach (var item in Model.LstCart)
+                {
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <h5>@item.ELProducts.Goods</h5>
+                                <p>@item.ELProducts.Brand</p>
+                                <p>Price for one: @item.ELProducts.Price</p>
+                                <p>Price for +11: @item.ELProducts.Price12</p>
+                                <p>Number: @item.Count</p>
+                                <p>Price: @item.Price.ToString()</p>
+                                <p>Total price : @item.Price.ToString() x @item.Count = @((item.Price * item.Count))</p>
+                            </div>
+                            <div class="col-md-4">
+                                <img src="@item.ELProducts.Imagurl" width="100%" class="rounded" />
+                            </div>
+                        </div>
+                        <div class="w-75 btn-group " role="group">
+                            <a asp-action="plus" asp-route-cartid="@item.Id" class="btn btn-primary"><i class="bi bi-plus-circle"></i></a>&nbsp;
+                            <a asp-action="minus" asp-route-cartid="@item.Id" class="btn btn-warning"><i class="bi bi-dash-circle"></i></a>&nbsp;
+                            <a asp-action="remove" asp-route-cartid="@item.Id" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                        </div>
+                        <hr />
+                    </li>
+                }
+            </ul>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <div class="from-group">
+                        <strong class="text-info">Ground Total: @Model.GroundTotal</strong>
+                    </div>
+                    <div class="form-group">
+                        <strong class="text-info">Total Item: @Model.GroundCount</strong>
+                    </div>
+                    <div>
+                        <a class="btn btn-danger" asp-style="height:25px; width:200px;" asp-action="Shiping">Shipping</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>*@
+
+
+

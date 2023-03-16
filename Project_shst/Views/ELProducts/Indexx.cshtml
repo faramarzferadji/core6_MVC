@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Project_shst.Models.ELProducts>
+@{
+    ViewData["Title"] = "Indexx";
+}
+
+<h1>Index</h1>
+
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.ELProductsId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Goods)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price12)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imagurl)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model =>model.Brand.Name)
+            </th>
+            <th>
+                <h2>Action</h2>
+            </th>
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.ELProductsId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Goods)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Price12)
+                </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Imagurl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Brand.Name)
+                </td>
+
+                <td>
+                    <a asp-action="Upsert11" asp-route-id="@item.Id">Edit</a>
+                    <a asp-action="Detaile" asp-route-id="@item.Id">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a class="btn btn-info" asp-area="" asp-controller="ELProducts" asp-action="Upsert11">Create<i class="bi bi-file-plus"></i></a>
+
+</div>
